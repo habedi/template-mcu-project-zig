@@ -1,0 +1,11 @@
+[project]
+name = "template-mcu-project-zig"
+version = "0.1.0"
+description = "The Python environment for the `template-mcu-project-zig` project"
+
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "python-dotenv >=1.1.0",
+    "pre-commit >=4.6.2",
+    "esptool >=4.8.0",
+]
